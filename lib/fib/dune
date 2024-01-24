@@ -1,0 +1,8 @@
+(library
+    (name fib)
+    (modules fib))
+
+(test
+    (name fib_test)
+    (modules fib_test)
+    (libraries ounit2 fib))
