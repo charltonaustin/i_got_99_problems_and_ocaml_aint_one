@@ -1,0 +1,9 @@
+(library
+    (name problem_001)
+    (modules problem_001)
+    (libraries shared_main))
+
+(test
+    (name problem_001_test)
+    (modules problem_001_test)
+    (libraries ounit2 problem_001 shared_main))

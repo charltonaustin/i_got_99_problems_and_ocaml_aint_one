@@ -1,0 +1,8 @@
+(library
+    (name shared_main)
+    (modules shared_main))
+
+(test
+    (name shared_main_test)
+    (modules shared_main_test)
+    (libraries ounit2 shared_main))
